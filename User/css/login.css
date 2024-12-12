@@ -1,0 +1,64 @@
+.login-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 70vh;
+    overflow: hidden;
+    background-color: black;
+}
+
+.form-container {
+    padding: 50px;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form-container h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.form-container .form-group label {
+    font-weight: 600;
+    color: #fff;
+}
+
+.form-container .form-group input {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid #555;
+    color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.form-container .form-group input::placeholder {
+    color: #ccc;
+}
+
+.form-container .form-group input:focus {
+    background: rgba(255, 255, 255, 0.2);
+    border-color: #4CAF50;
+    box-shadow: none;
+}
+
+.form-container .btn {
+    background: #4CAF50;
+    border: none;
+    transition: background 0.3s;
+}
+
+
+.form-container .text-light {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+.form-container .text-light:hover {
+    color: #4CAF50;
+}

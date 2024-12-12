@@ -1,0 +1,51 @@
+.contact {
+    padding: 50px 0;
+    background-color: #f3f4f7;
+}
+
+.heading h1 {
+    font-size: 3em;
+    color: black;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.headings h1::after {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: #4CAF50;
+    margin: 10px auto 0;
+}
+
+.form-group label {
+    font-weight: 600;
+}
+
+.form-group input, .form-group textarea {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid #555;
+    color: #fff;
+}
+
+.form-group input::placeholder, .form-group textarea::placeholder {
+    color: #ccc;
+}
+
+.form-group input:focus, .form-group textarea:focus {
+    background: rgba(255, 255, 255, 0.2);
+    border-color: #f0ad4e;
+    box-shadow: none;
+}
+
+.btn {
+    background: black;
+    border: none;
+    transition: background 0.3s;
+    color: #fff;
+}
+
+.btn:hover {
+    background: #4CAF50;
+}
